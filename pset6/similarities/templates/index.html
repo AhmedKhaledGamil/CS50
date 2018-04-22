@@ -1,0 +1,27 @@
+{% extends "layout.html" %}
+
+{% block body %}
+
+    <!-- TODO -->
+    <style>
+        input[type=text] {
+        width: 130px;
+        border-radius: 4px;
+        font-size: 16px;
+        -webkit-transition: width 0.4s ease-in-out;
+        transition: width 0.4s ease-in-out;
+        }
+        input[type=text]:focus {
+        width: 50%;}
+    </style>
+    <form action="/score" method="post">
+            <br><input type="text" name="string1" placeholder="String..." >
+            <br> <br>
+            <input type="text" name="string2" placeholder="String...">
+            <br><br>
+            <input type="submit" value="Submit"
+            style="background-color: #008CBA; border-radius: 50%;
+            width: 150px;">
+    </form>
+
+{% endblock %}
