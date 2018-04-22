@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Profile
+{% endblock %}
+
+{% block main %}
+    <form action="/profile" method="post">
+        <div class="form-group">
+            <div><h3>Name:</h3> <p style="margin: auto; text-align: center; color: blue; border-style: groove; width: 100px">{{name}}</p></div>
+            <div><h3>Cash:</h3> <p style="margin: auto; text-align: center; color: blue; border-style: groove; width: 100px">${{cash}}</p></div>
+            <div></div>
+            <div></div>
+            <button class="btn btn-primary" type="submit">Change Password</button>
+        </div>
+    </form>
+{% endblock %}

@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Stock
+{% endblock %}
+
+{% block main %}
+    <!--<form action="/buy" method="get" style="display:inline-block">-->
+    <!--    <div class="form-group">-->
+            <!--<div><h3>Symbol:</h3> <p style="margin: auto; text-align: center; color: blue; border-style: groove; width: 100px">{{symbol}}</p></div>-->
+    <!--        <div><h3>Name:</h3> <p style="margin: auto; text-align: center; color: blue; border-style: groove; width: 100px">{{name}}</p></div>-->
+    <!--        <div><h3>Price:</h3> <p style="margin: auto; text-align: center; color: blue; border-style: groove; width: 100px">{{price}}</p></div>-->
+    <!--    </div>-->
+    <!--        <button class="btn btn-primary" type="buy" style="margin:5px 5px">Buy</button>-->
+    <!--</form>-->
+    <!--<form action="/quote" method="get">-->
+    <!--    <button class="btn btn-primary" type="buy">Return</button>-->
+    <!--</form>-->
+    <div class="form-group">
+        <div><h3>Name:</h3> <p style="margin: auto; text-align: center; color: blue; border-style: groove; width: 100px">{{name}}</p></div>
+        <div><h3>Price:</h3> <p style="margin: auto; text-align: center; color: blue; border-style: groove; width: 100px">{{price}}</p></div>
+    </div>
+{% endblock %}
