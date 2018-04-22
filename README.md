@@ -3,7 +3,7 @@ Problem sets for CS50 course by Harvard University on edX
 
 [Link to CS50](https://courses.edx.org/courses/course-v1:HarvardX+CS50+X/course/](https://courses.edx.org/courses/course-v1:HarvardX+CS50+X/course/ "CS50")
 
-**Week1: Code in C**
+**PSET1: Code in C**
 
 hello.c : a program that prints out a simple greeting to the user, per the below. <br/>
 ```
