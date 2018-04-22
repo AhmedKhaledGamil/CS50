@@ -52,3 +52,38 @@ crack.c: a program that cracks passwords, per the below.
 $ ./crack 50fkUxYHbnXGw
 rofl
 ```
+
+**pset3: code in C**
+
+find.c: a program that finds a number among numbers, per the below.   
+[Detailed Description](https://docs.cs50.net/problems/find/more/find.html)
+```
+$ ./generate 1000 | ./find 42
+Didn't find needle in haystack.
+$ ./find 42
+50
+43
+^d
+Didn't find needle in haystack.
+
+$ ./find 42
+50
+42
+^d
+Found needle in haystack!
+```
+
+fifteen.c: the Game of Fifteen, per the below.  
+[Detailed Description](https://docs.cs50.net/problems/fifteen/fifteen.html)
+```
+$ ./fifteen 3
+WELCOME TO GAME OF FIFTEEN
+
+8  7  6
+
+5  4  3
+
+2  1  _
+
+Tile to move:
+```
