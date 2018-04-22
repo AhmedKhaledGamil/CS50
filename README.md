@@ -46,13 +46,9 @@ plaintext: Meet me at the park at eleven am
 ciphertext: Negh zf av huf pcfx bt gzrwep oz
 ```
 
-caesar.c: a program that encrypts messages using Caesar’s cipher, per the below.  
-[Detailed Description](https://docs.cs50.net/2018/x/psets/2/caesar/caesar.html)
+crack.c: a program that cracks passwords, per the below.  
+[Detailed Description](https://docs.cs50.net/2018/x/psets/2/crack/crack.html)
 ```
-$ ./caesar 1
-plaintext:  HELLO
-ciphertext: IFMMP
-$ ./caesar 13
-plaintext:  hello, world
-ciphertext: uryyb, jbeyq
+$ ./crack 50fkUxYHbnXGw
+rofl
 ```
